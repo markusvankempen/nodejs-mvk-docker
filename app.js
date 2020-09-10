@@ -5,6 +5,7 @@ var router = express.Router();
 var path = __dirname + '/views/';
 
 // Constants
+// mvk
 const PORT = 8080;
 const HOST = '0.0.0.0';
 
