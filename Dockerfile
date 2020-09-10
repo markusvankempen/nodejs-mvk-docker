@@ -1,5 +1,5 @@
-FROM arm32v6/node:8.14.0-alpine
-
+FROM resin/rpi-raspbian:jessie
+MAINTAINER Markus van Kempen <mvk@ca.ibm.com>
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
 WORKDIR /home/node/app
